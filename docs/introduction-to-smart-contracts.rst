@@ -170,7 +170,7 @@ Pour écouter cet événement, vous devriez utiliser le code JavaScript suivant 
 
 .. index:: coin
 
-Le :ref:`constructor<constructor>` est une fonction spéciale qui est exécutée pendant la création du contrat et ne peut pas être appelée ultérieurement. Dans cetr exemple, il stocke de façon permanente l'adresse de la personne qui crée le contrat.
+Le :ref:`constructor<constructor>` est une fonction spéciale qui est exécutée pendant la création du contrat et ne peut pas être appelée ultérieurement. Dans cet exemple, il stocke de façon permanente l'adresse de la personne qui crée le contrat.
 La variable ``msg`` (avec ``tx`` et ``block``) est une :ref:`special global variable <special-variables-functions>` qui contient certaines propriétés qui permettent d'accéder à la blockchain. ``msg.sender`` est toujours l'adresse d'où vient l'appel de la fonction courante (externe).
 
 Les fonctions qui constituent le contrat et qui peuvent être appelées par les utilisateurs et les contrats sont ``mint`` et ``send``.
